@@ -17,11 +17,11 @@ const winningPatterns = [
   [2, 4, 6],
 ];
 
-function selectRandom<T>(array: T[] = []) {
-  if (array.length === 0) return null;
-  const randomIndex = Math.floor(Math.random() * array.length);
-  return array[randomIndex];
-}
+// function selectRandom<T>(array: T[] = []) {
+//   if (array.length === 0) return null;
+//   const randomIndex = Math.floor(Math.random() * array.length);
+//   return array[randomIndex];
+// }
 
 //Return true if all place have truthy value in a array
 export const isAllPostionFill = (gameBoard: Array<unknown>) => {
